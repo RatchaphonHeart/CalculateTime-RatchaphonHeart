@@ -12,6 +12,7 @@ int subtract(int h1,int m1,int h2,int m2){
   return h;
   
 }
+
 int subtract(int m1,int m2){
   //return min
   if(m2<m1) return m2+60-m1;
